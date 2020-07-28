@@ -1,0 +1,18 @@
+module.exports = {
+  purge: [],
+  theme: {
+    extend: {
+      colors: {
+        blue: '#1992d4',
+      },
+      spacing: {
+        '72': '18rem',
+      },
+    },
+  },
+  variants: {
+    backgroundColor: ['responsive', 'hover', 'focus', 'active'],
+    textColor: ['responsive', 'hover', 'focus', 'active'],
+  },
+  plugins: [],
+};

@@ -1,0 +1,43 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+.mainContainer {
+  /* max-height: 200px; */
+  @apply p-3 mx-auto max-w-full;
+}
+.linkText {
+  @apply text-indigo-500;
+}
+.linkText:hover {
+  @apply underline;
+}
+.linkText:focus {
+  @apply shadow-sm;
+}
+.linkHeading {
+  @apply text-gray-700 capitalize;
+}
+.btn {
+  @apply rounded uppercase shadow-lg outline-none text-white cursor-pointer font-semibold tracking-wide px-4 py-3;
+}
+.btn:hover {
+  @apply bg-opacity-50;
+}
+
+@screen md {
+  .mainContainer {
+    @apply flex max-w-full items-start justify-center;
+  }
+  .linkHeading {
+    @apply text-sm;
+  }
+}
+@screen lg {
+  .mainContainer {
+    @apply max-w-6xl items-start justify-center;
+  }
+  .linkHeading {
+    @apply text-lg;
+  }
+}
+@import 'tailwindcss/utilities';

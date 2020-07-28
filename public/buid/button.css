@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 32px auto;
+}
+
+.button {
+  font: inherit;
+  border: 1px solid #521751;
+  background: #521751;
+  color: #ffffff;
+  padding: 3px 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.button:active,
+.button:hover {
+  background: #722a71;
+}
+
+.button:focus {
+  outline: none;
+}
